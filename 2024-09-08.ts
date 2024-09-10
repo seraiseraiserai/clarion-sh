@@ -2,17 +2,115 @@ export {};
 import Prompt from "prompt-sync";
 const input = Prompt({sigint: true});
 
-
-// What do I do?
-let a = "shuhua";
-let b = "serai";
-console.log(a + b);
+// play mario 
+// https://supermario-game.com/
 
 
+/////////// print statements ///////////
+// console.log("hello shuhua !");
 
-// // What do I do?
+
+// console.log("hi!");
+// console.log("goodbye!");
+
+
+// print a 3x3 grid
+// console.log("x|_|o");
+// console.log("_|o|_");
+// console.log("x| |o");
+
+
+
+// print a 3x3 grid, with some tic tac toe being played
+
+
+/////////// variables - strings ///////////
+// let a = "shuhua";
+// let b = "serai";
+// console.log(a);
+// console.log("hello", a);
+
+
+// say shuhua 10 times in a single line
+// console.log(a , a , a , a , a , a , a , a , a , a);
+
+
+
+// say shuhua 10 times vertically
+// console.log(a);
+// console.log(a);
+// console.log(a);
+// console.log(a);
+// console.log(a);
+// console.log(a);
+// console.log(a);
+// console.log(a);
+// console.log(a);
+// console.log(a);
+
+
+
+
+// say shuhua serai 5 times in a single line
+// console.log(a , b , a , b , a , b , a , b , a , b);
+
+
+// say shuhua, then serai, 5 times vertically
+// console.log(a);
+// console.log(b);
+// console.log(a);
+// console.log(b);
+// console.log(a);
+// console.log(b);
+// console.log(a);
+// console.log(b);
+// console.log(a);
+// console.log(b);
+
+
+
+// variables can be reassigned
+// let a = "shuhua";
+// console.log(a);
+// a = "kelly";
+// console.log(a);
+
+
+/////////// adding strings ///////////
+// let a = "shuhua";
+// let b = "serai";
+// console.log(a + b);
+
+// console.log(a + " and " + b);
+
+
+// // print out month, date, and year formatted
+// let day = "8";
+// let month = "9";
+// let year = "2024";
+// console.log(year + "-" + month + "-" + day);
+
+
+/////////// inputs ///////////
+
+// let n = input("type something: ")
+// console.log(n);
+
+
+// ask for my name, and say hi to me
 // let a = input("what's your name?: ");
-// console.log("hello", a + "!");
+// console.log("hi", a + "!");
+
+// ask for my first name, last name, date of birth,
+// month, and year,
+// then say "<name> was born on <month date year>"
+let firstName = input("what's your first name?: ")
+let lastName = input("what's your last name?: ")
+let date = input("when's your date of birth?: ")
+let month = input("what month?: ")
+let year = input("what year?: ")
+console.log(firstName + " " + lastName , "was born on" , month + "-" + date + "-" + year);
+
 
 /////////// variables - numbers ///////////
 // let a = 5;

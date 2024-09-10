@@ -1,5 +1,13 @@
 {
+  "compilerOptions": {
+    "lib": [
+      "es6"
+    ],
+    "esModuleInterop": true,
+    "moduleDetection": "force"
+  },
   "dependencies": {
+    "@types/prompt-sync": "^4.2.3",
     "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
